@@ -2,21 +2,30 @@ body{
 
     background-color:rgb(190, 190, 190);
     align-items: center;
+    text-align: center;
 }
 
 .bt{
-    border: none;
-    padding: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
-    margin-inline-start: 45px;
-    border-radius: 100px 1px 100px 1px;
-    align-self: center;
+    height: 90px;
+    margin-inline-start: 100px;
+    border-radius: 20px;
+    transition: 0.4s;
+
+}
+
+
+
+.cont{
+    background-color: rgb(173, 173, 173);
+border-radius: 100px;
+}
+
+.bt:hover{
+    background-color: gray ;
     
 }
 
 #choise{
-    text-align: center;
     
     width: 550px;
     height: 150px;
@@ -34,3 +43,33 @@ body{
     font-weight: bold;
     font-size: 32px;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+.bt1{
+    height: 151px;
+}
+
+.cont1{
+    display: flex;
+;
+}
+
+#reset{
+    border: none;
+    height: 80px;
+    width: 250px;
+    font-size: 25px;
+    transition: 0.2s;
+
+}
+
+#reset:hover{
+    color: white;
+    background-color: gray;
+}
+
