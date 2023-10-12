@@ -1,0 +1,36 @@
+body{
+
+    background-color:rgb(190, 190, 190);
+    align-items: center;
+}
+
+.bt{
+    border: none;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-inline-start: 45px;
+    border-radius: 100px 1px 100px 1px;
+    align-self: center;
+    
+}
+
+#choise{
+    text-align: center;
+    
+    width: 550px;
+    height: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#pcc{
+    text-align: center;
+    
+    width: 550px;
+    height: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
